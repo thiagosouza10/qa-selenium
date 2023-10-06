@@ -1,0 +1,17 @@
+{
+  "name": "selenium_webdriver",
+  "version": "1.0.0",
+  "description": "Projeto de testes e2e com selenium webdriver",
+  "main": "index.js",
+  "scripts": {
+    "teste": "mocha test/acesso.js"
+  },
+  "author": "Thiago de Souza",
+  "license": "MIT",
+  "dependencies": {
+    "selenium-webdriver": "^4.11.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
